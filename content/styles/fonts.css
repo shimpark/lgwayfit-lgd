@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* font family : Spoqa Han Sans Neo */
+@font-face {
+    font-family: "Spoqa Han Sans Neo";
+    font-weight: 700;
+    src: local("Spoqa Han Sans Bold"),
+    url("../fonts/SpoqaHanSansNeo-Bold.woff2") format("woff2"),
+    url("../fonts/SpoqaHanSansNeo-Bold.woff") format("woff"),
+    url("../fonts/SpoqaHanSansNeo-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Spoqa Han Sans Neo";
+    font-weight: 400;
+    src: local("Spoqa Han Sans Regular"),
+    url("../fonts/SpoqaHanSansNeo-Regular.woff2") format("woff2"),
+    url("../fonts/SpoqaHanSansNeo-Regular.woff") format("woff"),
+    url("../fonts/SpoqaHanSansNeo-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Spoqa Han Sans Neo";
+    font-weight: 300;
+    src: local("Spoqa Han Sans Light"),
+    url("../fonts/SpoqaHanSansNeo-Light.woff2") format("woff2"),
+    url("../fonts/SpoqaHanSansNeo-Light.woff") format("woff"),
+    url("../fonts/SpoqaHanSansNeo-Light.ttf") format("truetype");
+}
+
+/* font family : NEXON Lv1 Gothic */
+@font-face{
+    font-family: 'NEXON Lv1 Gothic';
+    font-weight: 400;
+    src:url('../fonts/NEXONLv1Gothic.eot'),
+    url('../fonts/NEXONLv1Gothic.eot#iefix') format("embedded-opentype"),
+    url('../fonts/NEXONLv1Gothic.woff') format("woff");
+}
+@font-face{
+    font-family: 'NEXON Lv1 Gothic Bold';
+    font-weight: 400;
+    src:url('../fonts/NEXONLv1GothicBold.eot'),
+    url('../fonts/NEXONLv1GothicBold.eot#iefix') format("embedded-opentype"),
+    url('../fonts/NEXONLv1GothicBold.woff') format("woff");
+}
